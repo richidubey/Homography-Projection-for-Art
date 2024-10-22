@@ -7,8 +7,8 @@ Results:
 ![Pierro Della's painting selected area](readme_images/image-pierro.png?)
 ![Top view of the floor in Pierro Della's painting](readme_images/image-1-pierro.png?)
 
-![Domenico Veneziano's painting selected area](readme_images/image-2.png)
-![Top view of the floor in Domenico Veneziano's painting](readme_images/image-3.png)
+![Domenico Veneziano's painting selected area](readme_images/image-2-venez.png)
+![Top view of the floor in Domenico Veneziano's painting](readme_images/image-3-venez.png)
 
 ![Sistine Chapel](readme_images/image-4.png)
 ![Elevated view of the right side wall](readme_images/image-5.png)
