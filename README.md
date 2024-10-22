@@ -7,7 +7,6 @@ Results:
 ![Pierro Della's painting selected area](readme_images/image.png)
 ![Top view of the floor in Pierro Della's painting](readme_images/image-1.png)
 
-
 ![Domenico Veneziano's painting selected area](readme_images/image-2.png)
 ![Top view of the floor in Domenico Veneziano's painting](readme_images/image-3.png)
 
