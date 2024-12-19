@@ -1,0 +1,29 @@
+# docker-compose.yml
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "8000:8000"
+    networks:
+      - app-network
+
+  frontend:
+    build:
+      context: ./homography-app
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    environment:
+    - CHOKIDAR_USEPOLLING=true 
+    stdin_open: true              # Keep STDIN open
+    tty: true      
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

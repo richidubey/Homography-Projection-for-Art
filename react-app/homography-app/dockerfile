@@ -1,0 +1,21 @@
+# homography-app/Dockerfile
+FROM node:16
+
+# Set the working directory
+WORKDIR /app
+
+# Copy only package.json and package-lock.json initially for caching
+COPY package.json package-lock.json ./
+RUN npm install
+
+# Copy the React app source code
+COPY . .
+
+# Expose the React development server port
+EXPOSE 3000
+
+# Set environment variables for React
+ENV CHOKIDAR_USEPOLLING=true
+
+# Use npm start for hot reloading in development mode
+CMD ["npm", "start"]
