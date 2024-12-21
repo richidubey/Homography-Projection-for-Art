@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Homography-Projection-for-Art/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/Homography-Projection-for-Art/static/js/main.ac50defd.chunk.js",
+    "main.js.map": "/Homography-Projection-for-Art/static/js/main.ac50defd.chunk.js.map",
+    "runtime-main.js": "/Homography-Projection-for-Art/static/js/runtime-main.2b2b83e3.js",
+    "runtime-main.js.map": "/Homography-Projection-for-Art/static/js/runtime-main.2b2b83e3.js.map",
+    "static/js/2.4b7976d3.chunk.js": "/Homography-Projection-for-Art/static/js/2.4b7976d3.chunk.js",
+    "static/js/2.4b7976d3.chunk.js.map": "/Homography-Projection-for-Art/static/js/2.4b7976d3.chunk.js.map",
+    "static/js/3.87ad7167.chunk.js": "/Homography-Projection-for-Art/static/js/3.87ad7167.chunk.js",
+    "static/js/3.87ad7167.chunk.js.map": "/Homography-Projection-for-Art/static/js/3.87ad7167.chunk.js.map",
+    "index.html": "/Homography-Projection-for-Art/index.html",
+    "precache-manifest.c86cce58dcb99f2c500947373356ebb4.js": "/Homography-Projection-for-Art/precache-manifest.c86cce58dcb99f2c500947373356ebb4.js",
+    "service-worker.js": "/Homography-Projection-for-Art/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/Homography-Projection-for-Art/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.4b7976d3.chunk.js.LICENSE.txt": "/Homography-Projection-for-Art/static/js/2.4b7976d3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2b2b83e3.js",
+    "static/js/2.4b7976d3.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.ac50defd.chunk.js"
+  ]
+}
