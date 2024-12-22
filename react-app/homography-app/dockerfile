@@ -1,5 +1,5 @@
 # homography-app/Dockerfile
-FROM node:16
+FROM node:16-alpine as build
 
 # Set the working directory
 WORKDIR /app
@@ -11,11 +11,16 @@ RUN npm install
 # Copy the React app source code
 COPY . .
 
-# Expose the React development server port
-EXPOSE 3000
+RUN npm run build
 
-# Set environment variables for React
-ENV CHOKIDAR_USEPOLLING=true
+#Serve with nginx
+FROM nginx:alpine
 
-# Use npm start for hot reloading in development mode
-CMD ["npm", "start"]
+# Copy the build output from the previous stage to the Nginx html directory
+COPY --from=build /app/build /usr/share/nginx/html
+
+# Expose the Nginx default HTTP port
+EXPOSE 80
+
+# Start Nginx when the container starts
+CMD ["nginx", "-g", "daemon off;"]

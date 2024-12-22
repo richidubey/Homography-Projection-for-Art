@@ -14,7 +14,8 @@ services:
     build:
       context: ./homography-app
     ports:
-      - "3000:3000"
+      - "8080:80" #Port 8080 on the host linked to 80 of nginx's server
+    restart: always
     depends_on:
       - backend
     environment:
